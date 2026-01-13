@@ -74,10 +74,6 @@ project:
     automatically matches them, and enables secure claim verification
     through an admin approval workflow.
 
-
-<<<<<<< HEAD
- ##Scenario: Recovering a Lost Pen
-User A reports a Lost Pen at the Library.
 =======
 graph TD;
     User-->Login/Register;
@@ -104,8 +100,6 @@ graph TD;
 
 
 Installation & Setup: -
-
-<<<<<<< HEAD
 User A sees the pen in their "Matches" tab and clicks Claim.
 
 User A enters proof: "It is a blue Parker pen."
@@ -134,7 +128,6 @@ PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_super_secret_key
 ADMIN_EMAIL=admin@lostfound.com
-<<<<<<< HEAD
 Start the Server:
 npm start
 
