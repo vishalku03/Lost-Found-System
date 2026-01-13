@@ -75,7 +75,7 @@ automatically matches them, and enables **secure claim verification** through an
 
 ## 🔁 System Architecture & Flow
 
-
+```mermaid
 graph TD
     User --> Login_Register
     Login_Register --> Dashboard
@@ -113,8 +113,8 @@ JWT_SECRET=your_super_secret_key
 ADMIN_EMAIL=admin@lostfound.com
 npm start
 
-```mermaid
-🎨 Frontend Setup:-
+```
+🎨 Frontend Setup
 Lost-Found-System/
 │
 ├── frontend/              # React Client
@@ -133,9 +133,9 @@ Lost-Found-System/
 └── README.md
 
 
-Technical Notes :-
+Technical Notes
 
-This project demonstrates production-level full-stack practices:
+This project demonstrates production-level full-stack practices
 MVC Architecture – Clean separation of concerns
 Scalability – Database design supports thousands of items
 Security First – Password hashing & protected API routes
@@ -143,13 +143,13 @@ Real-World Logic – Auto-Match & Claim Verification beyond CRUD
 Admin Workflow – Controlled approval system for claims
 
 
-🔮 Future Enhancements:
+🔮 Future Enhancements
 📧 Email notifications when a match is found
 📸 Image uploads using Cloudinary
 💬 Real-time chat between finder and claimant
 
 
-📬 Contact:-
+📬 Contact
 Vishal Kumar
 Full Stack Developer | MERN Stack Enthusiast
 📧 vishalk.shrivastav1@gmail.com
