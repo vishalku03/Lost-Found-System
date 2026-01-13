@@ -87,7 +87,7 @@ graph TD;
     Approve_Reject-->Item_Returned;
 
 
-📌 Scenario: Recovering a Lost Pen : -
+Scenario: Recovering a Lost Pen : -
 graph TD;
 
     User A reports a lost pen at the library.
@@ -100,47 +100,32 @@ graph TD;
     Admin_Verification-->Approve_Reject;
     User A sees the status updated to ✅ Approved.
 
+###🚀 Installation & Backend Setup 
+graph TD;
 
-Installation & Setup: -
-User A sees the pen in their "Matches" tab and clicks Claim.
+    git clone https://github.com/vishalku03/lost-found-system.git
+    cd lost-found-system
+    cd backend
+    npm install
+    Create a .env file inside the backend folder
+    PORT=5000
+    MONGO_URI=your_mongodb_connection_string
+    JWT_SECRET=your_super_secret_key
+    ADMIN_EMAIL=admin@email.com
+    Start the Server
+    npm start
 
-User A enters proof: "It is a blue Parker pen."
+###🚀 Installation & Frontend Setup 
+graph TD;
 
-Admin reviews the claim in the Dashboard.
-
-Admin clicks Approve.
-
-User A sees the status change to ✅ Approved.
-
-###🚀 Installation & Setup : -
-
-Follow these steps to run the project locally.
-✅ Prerequisites
-Node js installed
-MongoDB (local) or MongoDB Atlas URI
-
-git clone https://github.com/vishalku03/lost-found-system.git
-cd lost-found-system
-cd backend
-npm install
-
-Create a .env file inside the backend folder: -
-
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_super_secret_key
-ADMIN_EMAIL=admin@lostfound.com
-Start the Server:
-npm start
+    cd ../frontend
+    npm install
+    npm run dev   # or npm start
+    User A submits proof: "It is a blue Parker pen".
+    Admin reviews the claim in the dashboard
 
 
-Frontend Setup:-
-cd ../frontend
-npm install
-npm run dev   # or npm start
-
-
-🗂️ Project Structure:
+Project Structure:
 graph TD;
 
 Lost-Found-System/
@@ -160,8 +145,7 @@ Lost-Found-System/
 │
 └── README.md
 
-<<<<<<< HEAD
-👨‍💼###Technical Note:-
+###Technical Note:-
 
 This project was built to demonstrate production-level coding practices:
 MVC Architecture: Clean separation of concerns in the backend.
@@ -181,7 +165,7 @@ Real-World Logic: The "Auto-Match" and "Claim Verification" features solve actua
 📬 Contact : -
 Vishal Kumar Full Stack Developer | MERN Stack Enthusiast
 📧 vishalk00012@gmail.com
-=======
+
 
 Notes :-
 
