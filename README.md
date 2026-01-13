@@ -74,8 +74,8 @@ project:
     automatically matches them, and enables secure claim verification
     through an admin approval workflow.
 
-=======
 graph TD;
+
     User-->Login/Register;
     Login/Register-->Dashboard;
     Dashboard-->Report_Item;
