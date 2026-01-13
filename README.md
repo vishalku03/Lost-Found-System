@@ -189,3 +189,9 @@ Vishal Kumar
 Full Stack Developer | MERN Stack Enthusiast
 📧 vishalk.shrivastav1@gmail.com
 
+### Backend (Server-Side)
+* **Node.js & Express.js:** RESTful API architecture.
+* **MongoDB (Atlas) & Mongoose:** NoSQL database for flexible data modeling.
+* **JWT & Bcrypt:** For secure authentication and authorization.
+* **Dotenv:** Environment variable management.
+
