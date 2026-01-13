@@ -75,7 +75,7 @@ automatically matches them, and enables **secure claim verification** through an
 
 ## 🔁 System Architecture & Flow
 
-```mermaid
+
 graph TD
     User --> Login_Register
     Login_Register --> Dashboard
@@ -113,7 +113,7 @@ JWT_SECRET=your_super_secret_key
 ADMIN_EMAIL=admin@lostfound.com
 npm start
 
-
+```mermaid
 🎨 Frontend Setup:-
 Lost-Found-System/
 │
