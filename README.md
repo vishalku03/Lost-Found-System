@@ -11,13 +11,13 @@ This platform solves the inefficiency of physical notice boards by digitizing th
 ---
 
 ## 📌 Problem Statement
+
 In colleges, offices, and public spaces, recovering lost items is chaotic.
 
-* **Physical Notice Boards:** Hard to search and easy to miss.
-* 
-* **Manual Coordination:** Inefficient and time-consuming.
-  
-* **False Claims:** No way to verify if a claimant is the actual owner.
+- **Physical Notice Boards:** Hard to search and easy to miss.
+- **Manual Coordination:** Inefficient and time-consuming.
+- **False Claims:** No way to verify if a claimant is the actual owner.
+
 
 ## 💡 The Solution
 A centralized, digital platform where:
