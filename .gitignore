@@ -1,0 +1,9 @@
+# OS / Editor
+.vscode
+.DS_Store
+
+# GitHub workflows (avoid accidental issues)
+.github
+
+# Logs
+*.log
