@@ -124,27 +124,6 @@ graph TD;
     User A submits proof: "It is a blue Parker pen".
     Admin reviews the claim in the dashboard
 
-
-Project Structure:
-graph TD;
-
-Lost-Found-System/
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── routes/
-│   │   └── api/
-│
-├── backend/
-│   ├── models/
-│   ├── routes/
-│   ├── controllers/
-│   ├── middleware/
-│
-└── README.md
-
 --------------------------------
 
 ### Technical Note : -
@@ -176,4 +155,24 @@ Lost-Found-System/
 * **vishalk00012@gmail.com**
 * **Vishal Kumar**
 * **Full Stack Developer | MERN Stack Enthusiast**
+
+--------------------------------
+
+### Project Structure : -
+Lost-Found-System/
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── routes/
+│   │   └── api/
+│
+├── backend/
+│   ├── models/
+│   ├── routes/
+│   ├── controllers/
+│   ├── middleware/
+│
+└── README.md
 
