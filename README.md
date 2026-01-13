@@ -88,6 +88,7 @@ graph TD;
 
 
 📌 Scenario: Recovering a Lost Pen : -
+graph TD;
 
 1.User A reports a lost pen at the library.
 2.User B reports a found pen at the library.
@@ -139,6 +140,7 @@ npm run dev   # or npm start
 
 
 🗂️ Project Structure:
+graph TD;
 
 Lost-Found-System/
 │
