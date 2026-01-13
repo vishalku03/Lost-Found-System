@@ -74,6 +74,7 @@ A centralized, digital platform where:
 ### 🔁 Application Workflow
 
 graph TD;
+
     User-->Login/Register;
     Login/Register-->Dashboard;
     Dashboard-->Report_Item;
