@@ -145,53 +145,35 @@ Lost-Found-System/
 │
 └── README.md
 
+--------------------------------
 
-### Technical Note
+### Technical Note : -
 * **This project was built to demonstrate production-level coding practices:** 
-* **MVC Architecture: Clean separation of concerns in the backend.**
-* **Scalability: The database schema allows for thousands of items without performance hits.**
-* **Security First: Passwords are never stored in plain text; API routes are protected.**
-* Real-World Logic: The "Auto-Match" and "Claim Verification" features solve actual business logic problems, moving beyond simple CRUD operations.
+* **MVC Architecture:**  Clean separation of concerns in the backend.**
+* **Scalability:**  The database schema allows for thousands of items without performance hits.**
+* **Security First:**  Passwords are never stored in plain text; API routes are protected.**
+* Real-World Logic:** The "Auto-Match" and "Claim Verification" features solve actual business logic problems, moving beyond simple CRUD operations.
+  
+--------------------------------
+  
+###  Future Enhancements : -
+* **Email Notifications:** Notify users via email when a match is found.
+* **Image Upload:** Integration with Cloudinary for uploading item photos.
+* **Chat System:** Direct messaging between Finder and Claimant.
+
+--------------------------------
+### Notes :-
+* **This project demonstrates production-level full-stack practices.**
+* **MVC Architecture:** Clean separation of concerns.
+* **Scalability:** Database design supports thousands of items.
+* **Security First:** Password hashing & protected API routes.
+* **Real-World Logic:** Auto-Match & Claim Verification beyond CRUD.
+* **.Admin Workflow:**  Controlled approval system for claims.
 
 --------------------------------
 
-🔮 Future Enhancements : -
------------------------
-
-📧 Email Notifications: Notify users via email when a match is found.
-📸 Image Upload: Integration with Cloudinary for uploading item photos.
-💬 Chat System: Direct messaging between Finder and Claimant.
-
-📬 Contact : -
-Vishal Kumar Full Stack Developer | MERN Stack Enthusiast
-📧 vishalk00012@gmail.com
-
-
-Notes :-
-
-1.This project demonstrates production-level full-stack practices:
-2.MVC Architecture – Clean separation of concerns
-3.Scalability – Database design supports thousands of items
-4.Security First – Password hashing & protected API routes
-5.Real-World Logic – Auto-Match & Claim Verification beyond CRUD
-6.Admin Workflow – Controlled approval system for claims
-
-
-🔮 Future Enhancements:-
-
-1.Email notifications when a match is found.
-2.Image uploads using Cloudinary.
-3.Real-time chat between finder and claimant.
-
-Contact:
-
-Vishal Kumar
-Full Stack Developer | MERN Stack Enthusiast
-📧 vishalk.shrivastav1@gmail.com
-
-### Backend (Server-Side)
-* **Node.js & Express.js:** RESTful API architecture.
-* **MongoDB (Atlas) & Mongoose:** NoSQL database for flexible data modeling.
-* **JWT & Bcrypt:** For secure authentication and authorization.
-* **Dotenv:** Environment variable management.
+### Contact : -
+* **vishalk00012@gmail.com**
+* **Vishal Kumar**
+* **Full Stack Developer | MERN Stack Enthusiast**
 
