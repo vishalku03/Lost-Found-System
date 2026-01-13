@@ -79,7 +79,6 @@ system_architecture:
   overview: System Architecture & Flow
 
 ### 🔁 Application Workflow
-```mermaid
 graph TD;
     User-->Login/Register;
     Login/Register-->Dashboard;
@@ -92,8 +91,7 @@ graph TD;
     Approve_Reject-->Item_Returned;
 
 
-
-    Scenario: Recovering a Lost Pen
+ ##Scenario: Recovering a Lost Pen
 User A reports a Lost Pen at the Library.
 
 User B reports a Found Pen at the Library.
@@ -110,7 +108,7 @@ Admin clicks Approve.
 
 User A sees the status change to ✅ Approved.
 
-🚀 Installation & Setup
+###🚀 Installation & Setup : -
 Follow these steps to run the project locally.
 
 Prerequisites
@@ -139,7 +137,7 @@ ADMIN_EMAIL=admin@lostfound.com
 Start the Server:
 
 Bash
-
+--------------------------------------------------
 npm start
 3. Frontend Setup
 Bash
@@ -166,24 +164,24 @@ Lost-Found-System/
 │   ├── middleware/       # Auth & Role Checks
 │
 └── README.md
-👨‍💼 Recruiter / Technical Note
+
+👨‍💼###Technical Note:-
+
 This project was built to demonstrate production-level coding practices:
-
 MVC Architecture: Clean separation of concerns in the backend.
-
 Scalability: The database schema allows for thousands of items without performance hits.
-
 Security First: Passwords are never stored in plain text; API routes are protected.
-
 Real-World Logic: The "Auto-Match" and "Claim Verification" features solve actual business logic problems, moving beyond simple CRUD operations.
 
-🔮 Future Enhancements
+--------------------------------
+
+🔮 Future Enhancements : -
+-----------------------
+
 📧 Email Notifications: Notify users via email when a match is found.
-
 📸 Image Upload: Integration with Cloudinary for uploading item photos.
-
 💬 Chat System: Direct messaging between Finder and Claimant.
 
-📬 Contact
+📬 Contact : -
 Vishal Kumar Full Stack Developer | MERN Stack Enthusiast
 📧 vishalk00012@gmail.com
