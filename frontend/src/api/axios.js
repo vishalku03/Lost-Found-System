@@ -1,9 +1,8 @@
-
-
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://lost-found-site-2y0q.onrender.com", // ✅ ONLY base URL
+  // Add /api to the end of your baseURL
+  baseURL: "http://localhost:5000/api", 
 });
 
 api.interceptors.request.use((config) => {
