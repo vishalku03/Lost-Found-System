@@ -25,9 +25,9 @@ A centralized digital platform where:
 3. Admins verify submitted proof before approval  
 4. Secure workflows ensure privacy and accountability  
 
----
+--------------------------------
 
-## ✨ Key Features
+## ✨ Key Features:-
 
 ### 🔐 Authentication & Security
 - JWT-based login and signup
@@ -49,8 +49,8 @@ A centralized digital platform where:
 - Proof-based claiming system
 - Admin dashboard for approval/rejection
 - Real-time claim status updates
-
----
+  
+--------------------------------
 
 ## 🛠️ Technology Stack
 
@@ -98,6 +98,7 @@ A centralized digital platform where:
 * cd lost-found-system
 * cd backend
 * npm install
+
   
 * **Create a .env file inside the backend folder**.
 * PORT=5000
@@ -106,7 +107,7 @@ A centralized digital platform where:
 * ADMIN_EMAIL=admin@email.com
 * Start the Server
 * npm start
-* **.Admin Workflow:**  Controlled approval system for claims.
+* **Admin Workflow:**  Controlled approval system for claims.
 
 --------------------------------
 
@@ -150,20 +151,21 @@ A centralized digital platform where:
 --------------------------------
 
 ### Project Structure : -
+```text
 Lost-Found-System/
-│
 ├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── routes/
-│   │   └── api/
+│   └── src/
+│       ├── components/
+│       ├── pages/
+│       ├── routes/
+│       └── api/
 │
 ├── backend/
 │   ├── models/
 │   ├── routes/
 │   ├── controllers/
-│   ├── middleware/
+│   └── middleware/
 │
 └── README.md
+
 
