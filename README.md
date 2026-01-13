@@ -113,7 +113,6 @@ JWT_SECRET=your_super_secret_key
 ADMIN_EMAIL=admin@lostfound.com
 npm start
 
-```
 🎨 Frontend Setup
 Lost-Found-System/
 │
