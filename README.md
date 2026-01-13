@@ -75,21 +75,6 @@ project:
     automatically matches them, and enables secure claim verification
     through an admin approval workflow.
 
-system_architecture:
-  overview: System Architecture & Flow
-
-### 🔁 Application Workflow
-graph TD;
-    User-->Login/Register;
-    Login/Register-->Dashboard;
-    Dashboard-->Report_Item;
-    Report_Item-->Auto_Match_System;
-    Auto_Match_System-->View_Matches;
-    View_Matches-->Submit_Claim;
-    Submit_Claim-->Admin_Verification;
-    Admin_Verification-->Approve_Reject;
-    Approve_Reject-->Item_Returned;
-
 
  ##Scenario: Recovering a Lost Pen
 User A reports a Lost Pen at the Library.
