@@ -145,13 +145,13 @@ Lost-Found-System/
 │
 └── README.md
 
-###Technical Note:-
 
-This project was built to demonstrate production-level coding practices:
-MVC Architecture: Clean separation of concerns in the backend.
-Scalability: The database schema allows for thousands of items without performance hits.
-Security First: Passwords are never stored in plain text; API routes are protected.
-Real-World Logic: The "Auto-Match" and "Claim Verification" features solve actual business logic problems, moving beyond simple CRUD operations.
+### Technical Note
+* **This project was built to demonstrate production-level coding practices:** 
+* **MVC Architecture: Clean separation of concerns in the backend.**
+* **Scalability: The database schema allows for thousands of items without performance hits.**
+* **Security First: Passwords are never stored in plain text; API routes are protected.**
+* Real-World Logic: The "Auto-Match" and "Claim Verification" features solve actual business logic problems, moving beyond simple CRUD operations.
 
 --------------------------------
 
