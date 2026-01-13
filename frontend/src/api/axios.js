@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://lost-found-site-2y0q.onrender.com/"
+  baseURL: "https://lost-found-site-2y0q.onrender.com/api/auth/login"
 });
 
 api.interceptors.request.use((config) => {
