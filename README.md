@@ -76,13 +76,38 @@ project:
     through an admin approval workflow.
 
 
+<<<<<<< HEAD
  ##Scenario: Recovering a Lost Pen
 User A reports a Lost Pen at the Library.
+=======
+graph TD;
+    User-->Login/Register;
+    Login/Register-->Dashboard;
+    Dashboard-->Report_Item;
+    Report_Item-->Auto_Match_System;
+    Auto_Match_System-->View_Matches;
+    View_Matches-->Submit_Claim;
+    Submit_Claim-->Admin_Verification;
+    Admin_Verification-->Approve_Reject;
+    Approve_Reject-->Item_Returned;
 
-User B reports a Found Pen at the Library.
 
-The system runs the Auto-Match Logic.
+📌 Scenario: Recovering a Lost Pen : -
 
+1.User A reports a lost pen at the library.
+2.User B reports a found pen at the library.
+3.System runs the Auto-Match Logic.
+4.User A sees the pen in the Matches tab.
+5.User A submits proof: "It is a blue Parker pen".
+6.Admin reviews the claim in the dashboard
+7.Admin clicks Approve.
+8.User A sees the status updated to ✅ Approved.
+>>>>>>> c015ce5 (changed)
+
+
+Installation & Setup: -
+
+<<<<<<< HEAD
 User A sees the pen in their "Matches" tab and clicks Claim.
 
 User A enters proof: "It is a blue Parker pen."
@@ -94,62 +119,60 @@ Admin clicks Approve.
 User A sees the status change to ✅ Approved.
 
 ###🚀 Installation & Setup : -
+=======
+>>>>>>> c015ce5 (changed)
 Follow these steps to run the project locally.
+✅ Prerequisites
+Node js installed
+MongoDB (local) or MongoDB Atlas URI
 
-Prerequisites
-Node.js installed
-
-MongoDB installed locally or a MongoDB Atlas URI
-
-1. Clone the Repository
-Bash
-
-git clone [https://github.com/vishalku03/lost-found-system.git](https://github.com/vishalku03/lost-found-system.git)
+git clone https://github.com/vishalku03/lost-found-system.git
 cd lost-found-system
-2. Backend Setup
-Bash
-
 cd backend
 npm install
-Create a .env file in the backend folder:
 
-Code snippet
+Create a .env file inside the backend folder: -
 
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_super_secret_key
 ADMIN_EMAIL=admin@lostfound.com
+<<<<<<< HEAD
 Start the Server:
 
 Bash
 --------------------------------------------------
+=======
+>>>>>>> c015ce5 (changed)
 npm start
-3. Frontend Setup
-Bash
 
+
+Frontend Setup:-
 cd ../frontend
 npm install
-npm run dev  # or npm start
-🗂️ Project Structure
-Bash
+npm run dev   # or npm start
+
+
+🗂️ Project Structure:
 
 Lost-Found-System/
 │
-├── frontend/             # React Client
+├── frontend/              # React Client
 │   ├── src/
-│   │   ├── components/   # Reusable UI (Navbar, Cards)
-│   │   ├── pages/        # Views (Dashboard, Login, Claims)
-│   │   ├── routes/       # Protected & Admin Routes
-│   │   └── api/          # Axios configuration
+│   │   ├── components/    # Reusable UI (Navbar, Cards)
+│   │   ├── pages/         # Pages (Dashboard, Login, Claims)
+│   │   ├── routes/        # Protected & Admin Routes
+│   │   └── api/           # Axios configuration
 │
-├── backend/              # Node/Express Server
-│   ├── models/           # Mongoose Schemas (User, Item, Claim)
-│   ├── routes/           # API Endpoints
-│   ├── controllers/      # Business Logic
-│   ├── middleware/       # Auth & Role Checks
+├── backend/               # Node / Express Server
+│   ├── models/            # Mongoose Schemas (User, Item, Claim)
+│   ├── routes/            # API Endpoints
+│   ├── controllers/       # Business Logic
+│   ├── middleware/        # Auth & Role Checks
 │
 └── README.md
 
+<<<<<<< HEAD
 👨‍💼###Technical Note:-
 
 This project was built to demonstrate production-level coding practices:
@@ -170,3 +193,27 @@ Real-World Logic: The "Auto-Match" and "Claim Verification" features solve actua
 📬 Contact : -
 Vishal Kumar Full Stack Developer | MERN Stack Enthusiast
 📧 vishalk00012@gmail.com
+=======
+
+Notes :-
+
+1.This project demonstrates production-level full-stack practices:
+2.MVC Architecture – Clean separation of concerns
+3.Scalability – Database design supports thousands of items
+4.Security First – Password hashing & protected API routes
+5.Real-World Logic – Auto-Match & Claim Verification beyond CRUD
+6.Admin Workflow – Controlled approval system for claims
+
+
+🔮 Future Enhancements:-
+
+1.Email notifications when a match is found.
+2.Image uploads using Cloudinary.
+3.Real-time chat between finder and claimant.
+
+Contact:
+
+Vishal Kumar
+Full Stack Developer | MERN Stack Enthusiast
+📧 vishalk.shrivastav1@gmail.com
+>>>>>>> c015ce5 (changed)
