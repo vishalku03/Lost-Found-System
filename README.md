@@ -90,14 +90,15 @@ graph TD;
 📌 Scenario: Recovering a Lost Pen : -
 graph TD;
 
-1.User A reports a lost pen at the library.
-2.User B reports a found pen at the library.
-3.System runs the Auto-Match Logic.
-4.User A sees the pen in the Matches tab.
-5.User A submits proof: "It is a blue Parker pen".
-6.Admin reviews the claim in the dashboard
-7.Admin clicks Approve.
-8.User A sees the status updated to ✅ Approved.
+    User A reports a lost pen at the library.
+    User B reports a found pen at the library.
+    System runs the Auto-Match Logic.
+    User A sees the pen in the Matches tab.
+    User A submits proof: "It is a blue Parker pen".
+    Admin reviews the claim in the dashboard
+    Admin clicks Approve.
+    Admin_Verification-->Approve_Reject;
+    User A sees the status updated to ✅ Approved.
 
 
 Installation & Setup: -
