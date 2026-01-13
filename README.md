@@ -101,7 +101,6 @@ graph TD;
 6.Admin reviews the claim in the dashboard
 7.Admin clicks Approve.
 8.User A sees the status updated to ✅ Approved.
->>>>>>> c015ce5 (changed)
 
 
 Installation & Setup: -
@@ -118,8 +117,7 @@ Admin clicks Approve.
 User A sees the status change to ✅ Approved.
 
 ###🚀 Installation & Setup : -
-=======
->>>>>>> c015ce5 (changed)
+
 Follow these steps to run the project locally.
 ✅ Prerequisites
 Node js installed
@@ -138,11 +136,6 @@ JWT_SECRET=your_super_secret_key
 ADMIN_EMAIL=admin@lostfound.com
 <<<<<<< HEAD
 Start the Server:
-
-Bash
---------------------------------------------------
-=======
->>>>>>> c015ce5 (changed)
 npm start
 
 
@@ -215,4 +208,4 @@ Contact:
 Vishal Kumar
 Full Stack Developer | MERN Stack Enthusiast
 📧 vishalk.shrivastav1@gmail.com
->>>>>>> c015ce5 (changed)
+
