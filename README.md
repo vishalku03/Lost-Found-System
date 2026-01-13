@@ -66,64 +66,55 @@ A centralized digital platform where:
 * **JWT & Bcrypt:** For secure authentication and authorization.
 * **Dotenv:** Environment variable management.
 
----
-project:
-  name: Lost & Found System
-  description: >
-    A full-stack MERN application that helps users report lost and found items,
-    automatically matches them, and enables secure claim verification
-    through an admin approval workflow.
+--------------------------------
 
-graph TD;
-
-    User-->Login/Register;
-    Login/Register-->Dashboard;
-    Dashboard-->Report_Item;
-    Report_Item-->Auto_Match_System;
-    Auto_Match_System-->View_Matches;
-    View_Matches-->Submit_Claim;
-    Submit_Claim-->Admin_Verification;
-    Admin_Verification-->Approve_Reject;
-    Approve_Reject-->Item_Returned;
+### Work-Flow :-
+* **User-->** Login/Register.
+* **Login/Register-->** Report_Item;
+* **Dashboard-->** For secure authentication and authorization.
+* **Auto_Match_System-->** View_Matches;
+* **View_Matches-->** Submit_Claim;
+* **Submit_Claim-->** Admin_Verification;
+* **Admin_Verification-->** Approve_Reject;
+* **Approve_Reject-->** Item_Returned;
 
 
-Scenario: Recovering a Lost Pen : -
-graph TD;
+--------------------------------
+### Scenario: Recovering a Lost Pen : -
+* User A reports a lost pen at the library.
+* User B reports a found pen at the library.
+* System runs the Auto-Match Logic.
+* User A sees the pen in the Matches tab
+* User A submits proof: "It is a blue Parker pen".
+* Admin reviews the claim in the dashboard.
+* Admin clicks Approve.
+* Admin_Verification-->Approve_Reject;
+* User A sees the status updated to ✅ Approved.
 
-    User A reports a lost pen at the library.
-    User B reports a found pen at the library.
-    System runs the Auto-Match Logic.
-    User A sees the pen in the Matches tab.
-    User A submits proof: "It is a blue Parker pen".
-    Admin reviews the claim in the dashboard
-    Admin clicks Approve.
-    Admin_Verification-->Approve_Reject;
-    User A sees the status updated to ✅ Approved.
 
-###🚀 Installation & Backend Setup 
-graph TD;
+--------------------------------
+### Installation & Backend Setup :-
+* git clone https://github.com/vishalku03/lost-found-system.git
+* cd lost-found-system
+* cd backend
+* npm install
+  
+* **Create a .env file inside the backend folder**.
+* PORT=5000
+* MONGO_URI=your_mongodb_connection_string
+* JWT_SECRET=your_super_secret_key
+* ADMIN_EMAIL=admin@email.com
+* Start the Server
+* npm start
+* **.Admin Workflow:**  Controlled approval system for claims.
 
-    git clone https://github.com/vishalku03/lost-found-system.git
-    cd lost-found-system
-    cd backend
-    npm install
-    Create a .env file inside the backend folder
-    PORT=5000
-    MONGO_URI=your_mongodb_connection_string
-    JWT_SECRET=your_super_secret_key
-    ADMIN_EMAIL=admin@email.com
-    Start the Server
-    npm start
+--------------------------------
 
-###🚀 Installation & Frontend Setup 
-graph TD;
-
-    cd ../frontend
-    npm install
-    npm run dev   # or npm start
-    User A submits proof: "It is a blue Parker pen".
-    Admin reviews the claim in the dashboard
-
+### Installation & Frontend Setup :-
+* cd ../frontend
+*  npm install
+* npm run dev   # or npm start
+* 
 --------------------------------
 
 ### Technical Note : -
