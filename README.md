@@ -1,4 +1,4 @@
-# 🧠 Lost & Found System (MERN Stack)
+## Lost & Found System (MERN Stack)
 
 ![MERN Stack](https://img.shields.io/badge/Stack-MERN-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Production%20Ready-green?style=for-the-badge)
@@ -6,19 +6,18 @@
 
 A modern, full-stack Lost & Found web application built from scratch using the  
 MERN stack (MongoDB, Express, React, Node.js).
-
-This system replaces inefficient physical notice boards with a **secure digital platform** that supports **auto-matching** and **admin-verified claims**.
+This system replaces inefficient physical notice boards with a secure digital platform that supports auto-matching and admin-verified claims.
 
 --------------------------------
 
-## 📌 Problem Statement:-
+## Problem Statement:-
 
 In colleges, offices, and public spaces, recovering lost items is chaotic.
 * **Physical Notice Boards:** Hard to search and easy to miss.
 * **Manual Coordination:** Inefficient and time-consuming.
 * **False Claims:** No way to verify if a claimant is the actual owner.
 
-## 💡 The Solution:-
+## The Solution:-
 
 A centralized digital platform where:
 
@@ -29,32 +28,32 @@ A centralized digital platform where:
 
 --------------------------------
 
-## ✨ Key Features:-
+## Key Features:-
 
-### 🔐 Authentication & Security
+### Authentication & Security
 - JWT-based login and signup
 - Password hashing using `bcrypt`
 - Role-Based Access Control (User / Admin)
 - Protected routes using middleware
 
-### 📦 Smart Item Management
+### Smart Item Management
 - Lost & Found item reporting
 - Status lifecycle: `Open → Pending → Approved`
 - Category and location-based filtering
 
-### 🔍 Automated Matching
+### Automated Matching
 - Matches Lost and Found items automatically
 - Uses category + location logic
 - Reduces manual search effort
 
-### 🛡️ Claim Verification
+### Claim Verification
 - Proof-based claiming system
 - Admin dashboard for approval/rejection
 - Real-time claim status updates
   
 --------------------------------
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Frontend (Client-Side)
 * **React.js:** Component-based UI architecture.
@@ -91,10 +90,11 @@ A centralized digital platform where:
 * Admin reviews the claim in the dashboard.
 * Admin clicks Approve.
 * Admin_Verification-->Approve_Reject;
-* User A sees the status updated to ✅ Approved.
+* User A sees the status updated to Approved.
 
 
 --------------------------------
+
 ### Installation & Backend Setup :-
 * git clone https://github.com/vishalku03/lost-found-system.git
 * cd lost-found-system
