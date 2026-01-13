@@ -4,19 +4,21 @@
 ![Status](https://img.shields.io/badge/Status-Production%20Ready-green?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)
 
-A **modern, full-stack Lost & Found web application** built from scratch using the  
-**MERN stack (MongoDB, Express, React, Node.js)**.
+A modern, full-stack Lost & Found web application built from scratch using the  
+MERN stack (MongoDB, Express, React, Node.js).
 
 This system replaces inefficient physical notice boards with a **secure digital platform** that supports **auto-matching** and **admin-verified claims**.
 
+--------------------------------
 
-## 📌 Problem Statement
+## 📌 Problem Statement:-
+
 In colleges, offices, and public spaces, recovering lost items is chaotic.
 * **Physical Notice Boards:** Hard to search and easy to miss.
 * **Manual Coordination:** Inefficient and time-consuming.
 * **False Claims:** No way to verify if a claimant is the actual owner.
 
-## 💡 The Solution
+## 💡 The Solution:-
 
 A centralized digital platform where:
 
@@ -144,9 +146,9 @@ A centralized digital platform where:
 --------------------------------
 
 ### Contact : -
-* **vishalk00012@gmail.com**
-* **Vishal Kumar**
-* **Full Stack Developer | MERN Stack Enthusiast**
+* vishalk.shrivastav1@gmail.com
+* Vishal Kumar
+* Full Stack Developer | MERN Stack Enthusiast
 
 --------------------------------
 
