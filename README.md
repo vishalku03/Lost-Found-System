@@ -8,15 +8,6 @@ A **modern, full-stack Lost & Found web application** built entirely from scratc
 
 This platform solves the inefficiency of physical notice boards by digitizing the process of reporting lost items, automating the matching process, and providing a secure verification system for claiming belongings.
 
----
-
-## 📌 Problem Statement
-
-In colleges, offices, and public spaces, recovering lost items is chaotic.
-
-- **Physical Notice Boards:** Hard to search and easy to miss.
-- **Manual Coordination:** Inefficient and time-consuming.
-- **False Claims:** No way to verify if a claimant is the actual owner.
 
 
 ## 💡 The Solution
