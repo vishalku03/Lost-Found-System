@@ -66,20 +66,17 @@ A centralized, digital platform where:
 * **MongoDB (Atlas) & Mongoose:** NoSQL database for flexible data modeling.
 * **JWT & Bcrypt:** For secure authentication and authorization.
 * **Dotenv:** Environment variable management.
+# 🧠 Lost & Found System
+
+A full-stack **MERN application** that helps users report lost and found items,  
+automatically matches them, and enables **secure claim verification** through an  
+**admin approval workflow**.
 
 ---
-project:
-  name: Lost & Found System
-  description: >
-    A full-stack MERN application that helps users report lost and found items,
-    automatically matches them, and enables secure claim verification
-    through an admin approval workflow.
 
+## 🔁 System Architecture & Flow
 
-<<<<<<< HEAD
- ##Scenario: Recovering a Lost Pen
-User A reports a Lost Pen at the Library.
-=======
+```mermaid
 graph TD;
     User-->Login/Register;
     Login/Register-->Dashboard;
@@ -92,69 +89,32 @@ graph TD;
     Approve_Reject-->Item_Returned;
 
 
-📌 Scenario: Recovering a Lost Pen : -
+Installation & Setup
 
-1.User A reports a lost pen at the library.
-2.User B reports a found pen at the library.
-3.System runs the Auto-Match Logic.
-4.User A sees the pen in the Matches tab.
-5.User A submits proof: "It is a blue Parker pen".
-6.Admin reviews the claim in the dashboard
-7.Admin clicks Approve.
-8.User A sees the status updated to ✅ Approved.
->>>>>>> c015ce5 (changed)
-
-
-Installation & Setup: -
-
-<<<<<<< HEAD
-User A sees the pen in their "Matches" tab and clicks Claim.
-
-User A enters proof: "It is a blue Parker pen."
-
-Admin reviews the claim in the Dashboard.
-
-Admin clicks Approve.
-
-User A sees the status change to ✅ Approved.
-
-###🚀 Installation & Setup : -
-=======
->>>>>>> c015ce5 (changed)
 Follow these steps to run the project locally.
-✅ Prerequisites
-Node js installed
+
+✅ Prerequisites:-
+Node.js installed
 MongoDB (local) or MongoDB Atlas URI
 
+📥 Clone the Repository
 git clone https://github.com/vishalku03/lost-found-system.git
 cd lost-found-system
+
+⚙️ Backend Setup :-
 cd backend
 npm install
 
-Create a .env file inside the backend folder: -
+Create a .env file inside the backend folder:
 
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_super_secret_key
 ADMIN_EMAIL=admin@lostfound.com
-<<<<<<< HEAD
-Start the Server:
-
-Bash
---------------------------------------------------
-=======
->>>>>>> c015ce5 (changed)
 npm start
 
 
-Frontend Setup:-
-cd ../frontend
-npm install
-npm run dev   # or npm start
-
-
-🗂️ Project Structure:
-
+🎨 Frontend Setup:-
 Lost-Found-System/
 │
 ├── frontend/              # React Client
@@ -172,48 +132,25 @@ Lost-Found-System/
 │
 └── README.md
 
-<<<<<<< HEAD
-👨‍💼###Technical Note:-
 
-This project was built to demonstrate production-level coding practices:
-MVC Architecture: Clean separation of concerns in the backend.
-Scalability: The database schema allows for thousands of items without performance hits.
-Security First: Passwords are never stored in plain text; API routes are protected.
-Real-World Logic: The "Auto-Match" and "Claim Verification" features solve actual business logic problems, moving beyond simple CRUD operations.
+Technical Notes :-
 
---------------------------------
-
-🔮 Future Enhancements : -
------------------------
-
-📧 Email Notifications: Notify users via email when a match is found.
-📸 Image Upload: Integration with Cloudinary for uploading item photos.
-💬 Chat System: Direct messaging between Finder and Claimant.
-
-📬 Contact : -
-Vishal Kumar Full Stack Developer | MERN Stack Enthusiast
-📧 vishalk00012@gmail.com
-=======
-
-Notes :-
-
-1.This project demonstrates production-level full-stack practices:
-2.MVC Architecture – Clean separation of concerns
-3.Scalability – Database design supports thousands of items
-4.Security First – Password hashing & protected API routes
-5.Real-World Logic – Auto-Match & Claim Verification beyond CRUD
-6.Admin Workflow – Controlled approval system for claims
+This project demonstrates production-level full-stack practices:
+MVC Architecture – Clean separation of concerns
+Scalability – Database design supports thousands of items
+Security First – Password hashing & protected API routes
+Real-World Logic – Auto-Match & Claim Verification beyond CRUD
+Admin Workflow – Controlled approval system for claims
 
 
-🔮 Future Enhancements:-
+🔮 Future Enhancements:
+📧 Email notifications when a match is found
+📸 Image uploads using Cloudinary
+💬 Real-time chat between finder and claimant
 
-1.Email notifications when a match is found.
-2.Image uploads using Cloudinary.
-3.Real-time chat between finder and claimant.
 
-Contact:
-
+📬 Contact:-
 Vishal Kumar
 Full Stack Developer | MERN Stack Enthusiast
 📧 vishalk.shrivastav1@gmail.com
->>>>>>> c015ce5 (changed)
+
