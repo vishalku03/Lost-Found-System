@@ -76,17 +76,18 @@ automatically matches them, and enables **secure claim verification** through an
 
 ## 🔁 System Architecture & Flow
 
-```mermaid
-graph TD;
-    User-->Login/Register;
-    Login/Register-->Dashboard;
-    Dashboard-->Report_Item;
-    Report_Item-->Auto_Match_System;
-    Auto_Match_System-->View_Matches;
-    View_Matches-->Submit_Claim;
-    Submit_Claim-->Admin_Verification;
-    Admin_Verification-->Approve_Reject;
-    Approve_Reject-->Item_Returned;
+
+graph TD
+    User --> Login_Register
+    Login_Register --> Dashboard
+    Dashboard --> Report_Item
+    Report_Item --> Auto_Match_System
+    Auto_Match_System --> View_Matches
+    View_Matches --> Submit_Claim
+    Submit_Claim --> Admin_Verification
+    Admin_Verification --> Approve_Reject
+    Approve_Reject --> Item_Returned
+
 
 
 Installation & Setup
