@@ -17,15 +17,22 @@ dotenv.config();
 
 const app = express();
 
-// Middleware
+
 app.use(cors());
 app.use(express.json());
 
-// Routes
+
 app.use("/api/auth", authRoutes);
 app.use("/api/items", itemRoutes);
 app.use("/api/admin", adminRoutes);
-app.use("/api/claims", claimRoutes); 
+app.use("/api/claims", claimRoutes);
+
+app.get("/", (req, res) => {
+  res.status(200).json({
+    success: true,
+    message: "Lost & Found Backend is running 🚀",
+  });
+});
 
 
 app.get("/fix-admin", async (req, res) => {
@@ -37,6 +44,7 @@ app.get("/fix-admin", async (req, res) => {
       { role: "admin" }, 
       { new: true }
     );
+
     res.json({ message: "Admin Role Fixed!", user });
   } catch (err) {
     res.json({ error: err.message });
