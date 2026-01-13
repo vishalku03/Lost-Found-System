@@ -72,11 +72,10 @@ A full-stack **MERN application** that helps users report lost and found items,
 automatically matches them, and enables **secure claim verification** through an  
 **admin approval workflow**.
 
----
 
 ## 🔁 System Architecture & Flow
 
-
+```mermaid
 graph TD
     User --> Login_Register
     Login_Register --> Dashboard
