@@ -68,13 +68,19 @@ A centralized, digital platform where:
 * **Dotenv:** Environment variable management.
 
 ---
+project:
+  name: Lost & Found System
+  description: >
+    A full-stack MERN application that helps users report lost and found items,
+    automatically matches them, and enables secure claim verification
+    through an admin approval workflow.
 
-## 🧠 System Architecture & Flow
+system_architecture:
+  overview: System Architecture & Flow
 
 ### 🔁 Application Workflow
-
-graph TD;
 ```mermaid
+graph TD;
     User-->Login/Register;
     Login/Register-->Dashboard;
     Dashboard-->Report_Item;
