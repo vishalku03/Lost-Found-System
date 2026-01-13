@@ -1,4 +1,4 @@
-# 🧭 Lost & Found System (MERN Stack)
+# Lost & Found System (MERN Stack)
 
 ![MERN Stack](https://img.shields.io/badge/Stack-MERN-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Production%20Ready-green?style=for-the-badge)
@@ -72,7 +72,7 @@ A centralized, digital platform where:
 ## 🧠 System Architecture & Flow
 
 ### 🔁 Application Workflow
-```mermaid
+
 graph TD;
     User-->Login/Register;
     Login/Register-->Dashboard;
